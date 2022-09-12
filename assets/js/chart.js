@@ -5,6 +5,7 @@ bitcoin.addEventListener('click',function(){
     selectedCoin = 'bitcoin';
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
@@ -16,6 +17,7 @@ tether.addEventListener('click',function(){
     selectedCoin = 'tether';
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
@@ -27,6 +29,7 @@ shiba.addEventListener('click',function(){
     selectedCoin = 'shiba-inu';
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
@@ -38,6 +41,7 @@ ethereum.addEventListener('click',function(){
     selectedCoin = 'ethereum'
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
@@ -49,6 +53,7 @@ usd_coin.addEventListener('click',function(){
     selectedCoin = 'usd-coin';
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
@@ -60,6 +65,7 @@ binancecoin.addEventListener('click',function(){
     selectedCoin  = 'binancecoin';
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
@@ -71,6 +77,7 @@ binance_usd.addEventListener('click',function(){
     selectedCoin = 'binance-usd';
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
@@ -82,6 +89,7 @@ ripple.addEventListener('click',function(){
     selectedCoin = 'ripple';
     coinApi = "https://api.coingecko.com/api/v3/coins/" +selectedCoin;
     getCoinInfo();
+    main();
     const interval = setInterval(function() {
       getCoinInfo();
       main();
